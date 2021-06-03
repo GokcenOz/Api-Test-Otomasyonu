@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class C2_Get_ResponseBilgileriAssertion {
+public class C02_Get_ResponseBilgileriAssertion {
 
     @Test
     public void getBilgiTesti(){

@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class C5_Get_ResponseBodyTesti {
+public class C05_Get_ResponseBodyTesti {
 
     @Test
     public void get01(){

@@ -4,7 +4,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.junit.Test;
 
-public class C8_JsonPathKullanimi {
+public class C08_JsonPathKullanimi {
 
     @Test
     public void jsonObjesiOlusturma(){

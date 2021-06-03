@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class C6_Post_ResponseBodyTesti {
+public class C06_Post_ResponseBodyTesti {
     @Test
     public void post01(){
         //https://jsonplaceholder.typicode.com/posts  url’ine asagidaki body ile bir POST request gonderdigimizde

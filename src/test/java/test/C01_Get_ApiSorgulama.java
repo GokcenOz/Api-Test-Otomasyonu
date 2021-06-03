@@ -7,7 +7,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.given;
 
 
-public class C1_Get_ApiSorgulama {
+public class C01_Get_ApiSorgulama {
     @Test
     public void get01(){
         /*

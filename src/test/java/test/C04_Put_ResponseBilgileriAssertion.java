@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class C4_Put_ResponseBilgileriAssertion {
+public class C04_Put_ResponseBilgileriAssertion {
 
     @Test
     public void putMetot(){
