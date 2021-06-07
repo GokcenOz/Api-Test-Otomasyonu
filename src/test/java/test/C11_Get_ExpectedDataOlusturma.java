@@ -48,7 +48,7 @@ public class C11_Get_ExpectedDataOlusturma {
         JsonPath respJPath =response.jsonPath();
 
 
-        Assert.assertEquals(expData.get("userId"),respJPath.get("userId"));
+        Assert.assertEquals("userId testi calismadi",expData.get("userId"),respJPath.get("userId"));
         Assert.assertEquals(expData.get("id"),respJPath.get("id"));
         Assert.assertEquals(expData.get("title"),respJPath.get("title"));
         Assert.assertEquals(expData.get("body"),respJPath.get("body"));
