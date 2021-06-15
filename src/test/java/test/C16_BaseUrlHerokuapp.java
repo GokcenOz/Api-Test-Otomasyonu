@@ -1,6 +1,6 @@
 package test;
 
-import BaseUrlDepo.BaseUrlHerokuapp;
+import BaseUrlDepo.BaseUrlHerokuapp1;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.hamcrest.Matchers;
@@ -10,7 +10,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class C16_BaseUrlHerokuapp extends BaseUrlHerokuapp {
+public class C16_BaseUrlHerokuapp extends BaseUrlHerokuapp1 {
 
     @Test
     public void test01(){
