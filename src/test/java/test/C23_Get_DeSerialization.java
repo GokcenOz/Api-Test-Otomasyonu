@@ -54,17 +54,25 @@ public class C23_Get_DeSerialization extends BaseUrlDummy {
         // 4-Assert
         // expectedDataMap == response
         HashMap<String,Object> responseMap = response.as(HashMap.class);
+
+        System.out.println("expected data : " + expectedData);
+        /*
+        expected data : ic ice Map olarak olusturduk
+        {data = {profile_image=, employee_name=Ashton Cox, employee_salary=86000, id=3.0, employee_age=66},
+         message=Successfully! Record has been fetched.,
+         status=success}
+
+        response Map : donen response'i as() metodu ile map'e cevirdik
+        {data={id=3.0, employee_name=Ashton Cox, employee_salary=86000.0, employee_age=66.0, profile_image=},
+        message=Successfully! Record has been fetched.,
+        status=success}
+        */
+        System.out.println("response Map : " + responseMap);
         // exdectedDataMap ==== responseMap
 
         assertEquals(expectedData.get("status"),responseMap.get("status"));
         assertEquals(((Map)expectedData.get("data")).get("id"),((Map)responseMap.get("data")).get("id"));
-
-
-
-
-
-
-
-
+        assertEquals(  ((Map)expectedData.get("data")).get("employee_name"), ((Map) responseMap.get("data")).get("employee_name")     );
+        assertEquals(  ((Map) expectedData.get("data")).get("employee_salary"), ((Map) responseMap.get("data")).get("employee_salary") );
     }
 }

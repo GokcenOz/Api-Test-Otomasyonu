@@ -46,7 +46,7 @@ public class TestDataDummyRestApi {
 
         innerMap.put("id",3.0);
         innerMap.put("employee_name","Ashton Cox");
-        innerMap.put("employee_salary",86000);
+        innerMap.put("employee_salary",86000.0);
         innerMap.put("employee_age",66);
         innerMap.put("profile_image","");
 
