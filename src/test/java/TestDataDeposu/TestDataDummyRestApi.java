@@ -58,4 +58,25 @@ public class TestDataDummyRestApi {
         return expectedDataMap;
 
     }
+    public HashMap<String,Object> expectedDataMapOlustur(double id,String employee_name,
+                                                         double employee_salary,double employee_age,
+                                                        String profile_image, String status,String message){
+
+        HashMap<String,Object> expectedDataMap=new HashMap<>();
+        HashMap<String,Object> innerMap=new HashMap<>();
+
+        innerMap.put("id",id);
+        innerMap.put("employee_name",employee_name);
+        innerMap.put("employee_salary",employee_salary);
+        innerMap.put("employee_age",employee_age);
+        innerMap.put("profile_image",profile_image);
+
+        expectedDataMap.put("status", status);
+        expectedDataMap.put("data",innerMap);
+        expectedDataMap.put("message",message);
+
+
+        return expectedDataMap;
+
+    }
 }
