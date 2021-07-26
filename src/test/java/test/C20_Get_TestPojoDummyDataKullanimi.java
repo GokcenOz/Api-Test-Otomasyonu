@@ -12,7 +12,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
-public class C20_Get_TestDataKullanimi extends BaseUrlDummy {
+public class C20_Get_TestPojoDummyDataKullanimi extends BaseUrlDummy {
 
     @Test
     public void test01() {

@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class C11_Get_ExpectedDataOlusturma {
+public class C11_Get_ExpectedPojoDummyDataOlusturma {
 
     @Test
     public void getTesti(){

@@ -12,7 +12,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class C18_Get_TestDataClassKullanimi extends BaseUrlJsonPlaceHolder {
+public class C18_Get_TestPojoDummyDataClassKullanimi extends BaseUrlJsonPlaceHolder {
      /*
         https://jsonplaceholder.typicode.com/posts/22 url'ine
         bir GET request yolladigimizda donen response’in status kodunun 200
